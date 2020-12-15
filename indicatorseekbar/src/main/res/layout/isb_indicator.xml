@@ -4,6 +4,12 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    <com.warkiz.widget.ArrowView
+        android:id="@+id/indicator_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    
     <LinearLayout
         android:id="@+id/indicator_container"
         android:layout_width="wrap_content"
@@ -25,11 +31,4 @@
             android:textSize="13sp" />
 
     </LinearLayout>
-
-    <com.warkiz.widget.ArrowView
-        android:id="@+id/indicator_arrow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
-
 </LinearLayout>
